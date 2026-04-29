@@ -114,19 +114,26 @@
 ```
 10人工神经网络/
 ├── README.md                   # 项目说明文档
-├── CNN手写数字识别实验报告.md  # 完整实验报告
-├── app.py                      # Flask Web应用
-├── train_mnist_final.py        # 最终模型训练代码
-├── experiment.py               # 对比实验代码
-├── quick_experiment.py         # 快速对比实验
-├── best_model_final.pth        # 训练好的最佳模型
-├── loss_curves.png             # 训练Loss曲线图
-├── requirements.txt            # Python依赖列表
-├── index.html                  # HTML界面文件
-├── templates/
-│   └── index.html              # Web应用界面
-└── digit-recognizer/
-    └── submission_final.csv    # Kaggle提交文件
+├── .gitignore                  # Git忽略文件
+├── code/                       # 实验代码
+│   ├── app.py                  # Flask Web应用
+│   ├── train_mnist.py          # 基础模型训练代码
+│   ├── train_mnist_final.py    # 最终模型训练代码
+│   ├── train_mnist_optimized.py # 优化模型训练代码
+│   ├── experiment.py           # 对比实验代码
+│   ├── quick_experiment.py     # 快速对比实验
+│   ├── check_torch.py          # PyTorch环境检查
+│   └── requirements.txt        # Python依赖列表
+├── report/                     # 实验报告
+│   ├── CNN手写数字识别实验报告.md  # 完整实验报告
+│   └── CNN手写数字识别实验模板.md  # 实验报告模板
+└── results/                     # 实验结果
+    ├── loss_curves.png         # 训练Loss曲线图
+    ├── index.html              # HTML界面文件
+    ├── templates/
+    │   └── index.html          # Web应用界面
+    └── digit-recognizer/
+        └── submission_final.csv  # Kaggle提交文件
 ```
 
 ---

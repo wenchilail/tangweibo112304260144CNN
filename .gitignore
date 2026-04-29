@@ -1,9 +1,14 @@
-# 数据文件（太大）
-digit-recognizer/*.csv
-!digit-recognizer/submission_final.csv
-
-# 模型权重文件（可以保留，但如果太大可忽略）
+# 大模型文件
 *.pth
+*.pkl
+*.pt
+
+# 数据集（太大）
+results/digit-recognizer/*.csv
+!results/digit-recognizer/submission_final.csv
+
+# Gradio缓存
+.gradio/
 
 # Python
 __pycache__/
@@ -29,9 +34,6 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-
-# Jupyter
-.ipynb_checkpoints/
 
 # IDE
 .vscode/
