@@ -188,8 +188,8 @@ project/
 
 | 提交项         | 内容  |
 | ----------- | --- |
-| GitHub 仓库地址 | 待填写 |
-| 在线访问链接      | 待填写 |
+| GitHub 仓库地址 | https://github.com/wenchilail/tangweibo112304260144CNN |
+| 在线访问链接      | 本地访问：http://localhost:5000 |
 
 **运行方式：**
 
