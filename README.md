@@ -143,12 +143,14 @@
 ### （1）安装依赖
 
 ```bash
+cd code
 pip install -r requirements.txt
 ```
 
 ### （2）运行Web应用
 
 ```bash
+cd code
 python app.py
 ```
 
@@ -157,11 +159,13 @@ python app.py
 ### （3）训练模型
 
 ```bash
+cd code
 python train_mnist_final.py
 ```
 
 ### （4）运行对比实验
 
 ```bash
+cd code
 python experiment.py
 ```
